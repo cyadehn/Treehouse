@@ -28,6 +28,13 @@ body {
     border-bottom: 20px solid #5ca36d;
 }
 
+.footer-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
 .footer-container,
 .main aside {
     border-top: 20px solid #5ca36d;
