@@ -17,6 +17,15 @@
   .main-nav {
     justify-content: space-evenly;
   }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .col {
+    flex: 1 50%;
+  }
 }
 
 @media (min-width: 1025px) {
@@ -26,4 +35,15 @@
     justify-content: space-between;
   }
 
+  .col {
+    flex-basis: 0;
+  }
+
+  .primary {
+    flex-grow: 2;
+  }
+
+  .secondary {
+    order: -1;
+  }
 }
