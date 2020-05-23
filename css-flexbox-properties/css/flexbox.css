@@ -3,7 +3,34 @@
   Flexbox
 ==================================== */
 
+/* Method 1 */
+
+/* .container {
+	display: flex;
+	min-height: 50vh;
+	justify-content: center;
+	align-items: center;
+} */
+
+/* Method 2 */
+/* 
 .container {
 	display: flex;
 	min-height: 50vh;
+	justify-content: center;
+}
+
+.item {
+	align-self: center;
+} */
+
+/* Method 3 */
+
+.container {
+	display: flex;
+	min-height: 50vh;
+}
+
+.item {
+	margin: auto;
 }
