@@ -148,17 +148,23 @@ Media Queries
     margin: 0 auto;
   }
 
+  header {
+    position: relative;
+  }
+
   .title {
     font-size: 2em;
+    position: absolute;
+    top: 10%;
   }
 
   nav a {
-    padding: 25px 1%;
+    padding: 2em 1%;
   }
 
-  .header-container {
+  /* .header-container {
     padding: 1em 0;
-  }
+  } */
 }
 
 
