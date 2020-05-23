@@ -23,6 +23,13 @@ html {
     width: 90%;
     margin: 0 auto;
   }
+
+  header.wrapper {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: stretch;
+  }
   
   .header-container {
       border-bottom: 20px solid #5ca36d;
@@ -102,6 +109,15 @@ html {
   
   @media only screen and (min-width: 480px) {
   
+    header.wrapper {
+      flex-flow: row wrap;
+    }
+
+    .title,
+    nav {
+      width: 100%;
+    }
+
     nav a {
       float: left;
       width: 30%;
@@ -122,19 +138,24 @@ html {
   
   @media only screen and (min-width: 768px),
          only screen and (min-width: 700px) and (orientation: landscape) {
-  
+    header.wrapper {
+      flex-wrap: nowrap;
+      justify-content: flex-end;
+    }
+
     .title {
-      float: left;
-      font-size: 1.4em;
+      width: 50%;
+      padding-right: 5px;
     }
-  
+
     nav {
-      float: right;
-      width: 60%;
+      width: auto;
+      flex-grow: 1;
     }
-  
+
     nav a {
       padding: 15px 1%;
+      width: 30%;
     }
   
     .main article {
