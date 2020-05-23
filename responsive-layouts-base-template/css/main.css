@@ -155,7 +155,10 @@ Media Queries
   nav a {
     padding: 25px 1%;
   }
-  
+
+  .header-container {
+    padding: 1em 0;
+  }
 }
 
 
