@@ -4,46 +4,28 @@
 
 @media (min-width: 769px) {
 
-  .main-header,
-  .main-nav {
-    display: flex;
-  }
+	.main-header,
+	.main-nav,
+	.row {
+		display: flex;
+	}
 
-  .main-header {
-    flex-direction: column;
-    align-items: center;
-  }
+	.main-header {
+		flex-direction: column;
+		align-items: center;
+	}
 
-  .main-nav {
-    justify-content: space-evenly;
-  }
+	.col {
+		flex: 1;
+	}
 
-  .row {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .col {
-    flex: 1 50%;
-  }
 }
 
 @media (min-width: 1025px) {
 
-  .main-header {
-    flex-direction: row;
-    justify-content: space-between;
-  }
+	.main-header {
+		flex-direction: row;
+		justify-content: space-between;
+	}
 
-  .col {
-    flex-basis: 0;
-  }
-
-  .primary {
-    flex-grow: 2;
-  }
-
-  .secondary {
-    order: -1;
-  }
 }
