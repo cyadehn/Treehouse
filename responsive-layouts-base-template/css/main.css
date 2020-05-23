@@ -168,6 +168,7 @@ Media Queries
 
   nav a {
     padding: 2em 1%;
+    font-size: 1.25em;
   }
 
   /* .header-container {
