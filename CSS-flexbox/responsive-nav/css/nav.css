@@ -2,12 +2,19 @@
   Main Styles
 --------------------------- */
 
+.main-header,
+.nav {
+  display: flex;
+  flex-direction: column;
+}
+
 .main-header {
   padding-top: 2em;
 }
 
 .site-logo {
   width: 110px;
+  align-self: center;
 }
 
 .nav {
@@ -18,7 +25,7 @@
   display: block;
   color: #797e83;
   font-size: 1.125em;
-  font-weight: -300;
+  font-weight: 300;
   text-align: center;
   padding: .4em;
   border-bottom: solid 1px #ebecec;
@@ -33,3 +40,47 @@
   Media Queries
 --------------------------- */
 
+@media (min-width: 754px) {
+
+  .main-header {
+    min-height: 200px;
+    justify-content: flex-end;
+  }
+
+  .site-logo {
+    width: 140px;
+  }
+
+  .nav {
+    margin-top: 3em;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .nav a {
+    border-bottom-color: transparent;
+  }
+
+}
+
+@media (min-width: 1040px) {
+
+  .main-header {
+    flex-direction: row;
+  }
+
+  .site-logo {
+    margin-right: auto;
+  }
+
+  .nav {
+    margin-top: 0;
+    align-self: center;
+  }
+
+  .nav li {
+    margin-left: .65em;
+    margin-right: .65em;
+  }
+
+}
