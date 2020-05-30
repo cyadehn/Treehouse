@@ -5,10 +5,9 @@
 }
 
 
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Open+Sans&display=swap');
-
-body {
-    font-family: 'Dosis' sans-serif;
+@import {
+    url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+    url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 }
 
 form {
@@ -21,8 +20,10 @@ form {
 }
 
 h1 {
+    font-family: 'Dosis', sans-serif;
     text-align: center;
     margin: 10px auto;
+    font-weight: 150;
 }
 
 input[type="text"],
@@ -53,3 +54,33 @@ select {
 label {
     display: block;
 }
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 4px 8px 0;
+}
+
+select {
+    padding: 6px;
+    height: 32px;
+    border-radius: 2px;
+}
+
+button {
+    width: 100%;
+    padding: 19px 40px 18px;
+    color: #FFF;
+    background-color: #1f7fc4;
+    /* padding: 19px 39px 18px 39px;
+    color: #FFF;
+    background-color: #4bc970;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid #3ac162;
+    border-width: 1px 1px 3px;
+    box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+    margin-bottom: 10px; */
+  }
