@@ -28,18 +28,24 @@
                 <textarea id="bio" name="user_bio">Please provide a short bio for yourself.</textarea>
                 <label for="job">Job role:</label>
                 <select id="job" name="user_job">
-                    <option value="frontend_developer">Front-End Developer</option>
-                    <option value="php_developer">PHP Developer</option>
-                    <option value="python_developer">Python Developer</option>
-                    <option value="animal_control">Animal Control Specialist</option>
-                    <option value="rails_developer">Rails Developer</option>
-                    <option value="web_designer">Web Designer</option>
-                    <option value="wordpress_developer">Wordpress Developer</option>
-                    <option value="android_developer">Android Developer</option>
-                    <option value="ios_developer">iOS Developer</option>
-                    <option value="mobile_developer">Mobile Developer</option>
-                    <option value="business_owner">Business Owner</option>
-                    <option value="freelance">Freelancer</option>
+                    <optgroup label="Web">
+                        <option value="frontend_developer">Front-End Developer</option>
+                        <option value="php_developer">PHP Developer</option>
+                        <option value="python_developer">Python Developer</option>
+                        <option value="animal_control">Animal Control Specialist</option>
+                        <option value="rails_developer">Rails Developer</option>
+                        <option value="web_designer">Web Designer</option>
+                        <option value="wordpress_developer">Wordpress Developer</option>
+                    </optgroup>
+                    <optgroup label="Mobile">
+                        <option value="android_developer">Android Developer</option>
+                        <option value="ios_developer">iOS Developer</option>
+                        <option value="mobile_developer">Mobile Developer</option>
+                    </optgroup>
+                    <optgroup label="Business">
+                        <option value="business_owner">Business Owner</option>
+                        <option value="freelance">Freelancer</option>
+                    </optgroup>
                 </select>
             </fieldset>
             <button type="submit">Sign Up</button>
