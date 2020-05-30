@@ -1,13 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 *, *:before, *:after {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-}
-
-
-@import {
-    url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
-    url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 }
 
 form {
@@ -71,16 +68,12 @@ button {
     padding: 19px 40px 18px;
     color: #FFF;
     background-color: #1f7fc4;
-    /* padding: 19px 39px 18px 39px;
-    color: #FFF;
-    background-color: #4bc970;
     font-size: 18px;
     text-align: center;
     font-style: normal;
     border-radius: 5px;
-    width: 100%;
-    border: 1px solid #3ac162;
+    border: 1px solid #FFF;
     border-width: 1px 1px 3px;
+    margin-bottom: 10px;
     box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
-    margin-bottom: 10px; */
-  }
+}
