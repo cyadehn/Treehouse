@@ -1,0 +1,21 @@
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Open+Sans&display=swap');
+
+body {
+    font-family: 'Dosis' sans-serif;
+}
+
+form {
+    font-family: 'Open Sans' sans-serif;
+    max-width: 300px;
+    background-color: #bebebe;
+    margin: 10px auto;
+    border-radius: 10px;
+    padding: 10px;
+}
