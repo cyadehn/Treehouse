@@ -13,14 +13,20 @@
         <form action="index.html" method="POST">
 
             <h1>Sign up</h1>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="user_name">
-            <label for="mail">Email:</label>
-            <input type="email" id="mail" name="user_email">
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="user_password">
-            <label for="user_bio">Biography:</label>
-            <textarea id="bio" name="user_bio">Please provide a short bio for yourself.</textarea>
+            <fieldset>
+                <legend><span class="number">1</span>Account info:</legend>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="user_name">
+                <label for="mail">Email:</label>
+                <input type="email" id="mail" name="user_email">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="user_password">
+            </fieldset>
+            <fieldset>
+                <legend><span class="number">2</span>Your profile:</legend>
+                <label for="user_bio">Biography:</label>
+                <textarea id="bio" name="user_bio">Please provide a short bio for yourself.</textarea>
+            </fieldset>
             <button type="submit">Sign Up</button>
             <button type="reset" id="reset">Reset Form</button>
         </form>
