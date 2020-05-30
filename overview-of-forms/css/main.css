@@ -74,6 +74,10 @@ button {
   margin-bottom: 10px;
 }
 
+#reset {
+  background-color: #af3430;
+}
+
 fieldset {
   margin-bottom: 30px;
   border: none;
