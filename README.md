@@ -4,4 +4,4 @@
 
 This repo stores course files completed in Code Lou May 2020 track (you can see my Treehouse profile [here](https://teamtreehouse.com/christopherdehner))
 
-Files intended for strict Portfolio use will be moved to a separate at a later date.
+Portfolio files will be moved to a separate repo at a later date.
