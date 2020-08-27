@@ -9,14 +9,3 @@
 /home/treehouse/workspace/obj/Debug/netcoreapp2.1/workspace.AssemblyInfo.cs
 /home/treehouse/workspace/obj/Debug/netcoreapp2.1/workspace.dll
 /home/treehouse/workspace/obj/Debug/netcoreapp2.1/workspace.pdb
-/Users/christopherdehner/code_louisville/projects/treehouse/c#-basics/bin/Debug/netcoreapp2.1/workspace.deps.json
-/Users/christopherdehner/code_louisville/projects/treehouse/c#-basics/bin/Debug/netcoreapp2.1/workspace.runtimeconfig.json
-/Users/christopherdehner/code_louisville/projects/treehouse/c#-basics/bin/Debug/netcoreapp2.1/workspace.runtimeconfig.dev.json
-/Users/christopherdehner/code_louisville/projects/treehouse/c#-basics/bin/Debug/netcoreapp2.1/workspace.dll
-/Users/christopherdehner/code_louisville/projects/treehouse/c#-basics/bin/Debug/netcoreapp2.1/workspace.pdb
-/Users/christopherdehner/code_louisville/projects/treehouse/c#-basics/obj/Debug/netcoreapp2.1/workspace.csprojAssemblyReference.cache
-/Users/christopherdehner/code_louisville/projects/treehouse/c#-basics/obj/Debug/netcoreapp2.1/workspace.csproj.CoreCompileInputs.cache
-/Users/christopherdehner/code_louisville/projects/treehouse/c#-basics/obj/Debug/netcoreapp2.1/workspace.AssemblyInfoInputs.cache
-/Users/christopherdehner/code_louisville/projects/treehouse/c#-basics/obj/Debug/netcoreapp2.1/workspace.AssemblyInfo.cs
-/Users/christopherdehner/code_louisville/projects/treehouse/c#-basics/obj/Debug/netcoreapp2.1/workspace.dll
-/Users/christopherdehner/code_louisville/projects/treehouse/c#-basics/obj/Debug/netcoreapp2.1/workspace.pdb
