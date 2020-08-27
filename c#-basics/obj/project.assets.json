@@ -688,23 +688,23 @@
     ]
   },
   "packageFolders": {
-    "/home/treehouse/.nuget/packages/": {},
-    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "/Users/christopherdehner/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/treehouse/workspace/workspace.csproj",
+      "projectUniqueName": "/Users/christopherdehner/code_louisville/projects/treehouse/c#-basics/workspace.csproj",
       "projectName": "workspace",
-      "projectPath": "/home/treehouse/workspace/workspace.csproj",
-      "packagesPath": "/home/treehouse/.nuget/packages/",
-      "outputPath": "/home/treehouse/workspace/obj/",
+      "projectPath": "/Users/christopherdehner/code_louisville/projects/treehouse/c#-basics/workspace.csproj",
+      "packagesPath": "/Users/christopherdehner/.nuget/packages/",
+      "outputPath": "/Users/christopherdehner/code_louisville/projects/treehouse/c#-basics/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/home/treehouse/.nuget/NuGet/NuGet.Config"
+        "/Users/christopherdehner/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
