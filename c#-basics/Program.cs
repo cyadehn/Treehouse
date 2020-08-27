@@ -2,11 +2,15 @@ class Program
 {
     static void Main(string[] args)
     {
-        var number = 4;
-        var greeting = "hello";
-        System.Console.WriteLine(number);
-        System.Console.WriteLine(greeting);
-        System.Console.WriteLine(number + 2);
-        System.Console.WriteLine(12 - number);
+        System.Console.WriteLine(1.GetType());       // Prints "System.Int32"
+        System.Console.WriteLine(2.GetType());       // Prints "System.Int32"
+        System.Console.WriteLine(3.GetType());       // Prints "System.Int32"
+        System.Console.WriteLine("hello".GetType()); // Prints "System.String"
+        System.Console.WriteLine("hi".GetType());    // Prints "System.String"
+        System.Console.WriteLine(4.GetType());       // Prints "System.Int32"
+        System.Console.WriteLine(3.1415.GetType());  // Prints "System.Double"
+        System.Console.WriteLine(true.GetType());    // Prints "System.Boolean"
+        System.Console.WriteLine("hello".GetType()); // Prints "System.String"
+        System.Console.WriteLine('z'.GetType());     // Prints "System.Char"
     }
 }
